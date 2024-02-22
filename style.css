@@ -14,3 +14,8 @@ header {
 .copywright{
     background-color: #2C3E50;
 }
+
+.top_section img{
+    width: 350px;
+    aspect-ratio: 1/1;
+}
