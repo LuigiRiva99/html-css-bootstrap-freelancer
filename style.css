@@ -1,3 +1,5 @@
+
+/* SECTION BACKGROUND COLORS */
 header {
     background-color: #2C3E50;
 }
@@ -15,19 +17,39 @@ header {
     background-color: #2C3E50;
 }
 
+/* CONTAINER */
+.about_container,
+.contact_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* TOP SECTION */
 .top_section img{
     width: 350px;
     aspect-ratio: 1/1;
 }
 
+/* ABOUT */
 .about p {
     column-count: 2;
+}
+
+/* CONTACT-SECTION */
+.ms_contact button{
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.ms_contact button:hover{
+    color: #1ABC9C;
+    border-color: #1ABC9C;
 }
 
 .start_bootstrap {
     color: #1ABC9C;
 }
-
+/* INFO-SECTION */
 .info p {
     font-size: 20px;
 }
@@ -45,10 +67,3 @@ header {
     font-size: 25px;
     color: black;
 }
-    
-.about_container,
-.contact_container {
-    width: 80%;
-    margin: 0 auto;
-}
-
