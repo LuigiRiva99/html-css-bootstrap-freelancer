@@ -19,3 +19,36 @@ header {
     width: 350px;
     aspect-ratio: 1/1;
 }
+
+.about p {
+    column-count: 2;
+}
+
+.start_bootstrap {
+    color: #1ABC9C;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.social_list li{
+    margin: 0px 7px;
+}
+.social_list button {
+    width: 60px;
+    aspect-ratio: 1/1;
+}
+
+.ms_contact input::placeholder,
+.ms_contact textarea::placeholder{
+    font-size: 25px;
+    color: black;
+}
+    
+.about_container,
+.contact_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
