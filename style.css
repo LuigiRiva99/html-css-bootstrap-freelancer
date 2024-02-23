@@ -31,8 +31,8 @@ header {
 }
 
 /* ABOUT */
-.about p {
-    column-count: 2;
+.ms_about_description {
+    column-count: 2 ;
 }
 
 /* CONTACT-SECTION */
